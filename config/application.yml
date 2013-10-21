@@ -15,4 +15,4 @@ test:
     key: e36de7b6021c7fc86073639a013d8e3f
 
 production:
-  <<: *defaults
+  <<: *development
