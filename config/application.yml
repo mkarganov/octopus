@@ -15,4 +15,18 @@ test:
     key: e36de7b6021c7fc86073639a013d8e3f
 
 production:
-  <<: *development
+  vkontakte:
+    id: 3945912
+    key: 1IjDVBxlO4BqZnWG8xK6
+  facebook:
+    id: 412366105530844
+    key: e36de7b6021c7fc86073639a013d8e3f
+    callback: 'http://localhost:3000/auth'
+test:
+  vkontakte:
+    id: 3945912
+    key: 1IjDVBxlO4BqZnWG8xK6
+  facebook:
+    id: 412366105530844
+    key: e36de7b6021c7fc86073639a013d8e3f
+
