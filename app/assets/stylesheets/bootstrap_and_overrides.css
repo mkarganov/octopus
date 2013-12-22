@@ -5,9 +5,13 @@
   To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
   =require twitter-bootstrap-static/fontawesome
   */
-.container-fluid {
+.container-fluid.site {
+  background: white;
   margin: 0 auto;
   width: 1170px;
+  box-shadow: 0px 0px 20px 3px #85416F;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .modal {

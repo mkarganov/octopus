@@ -13,9 +13,15 @@
  *= require_tree .
  */
 
-body {
+body.site {
   padding-top: 50px;
-  }
+  background: url('/assets/bgd.png');
+  background-color: #FFA0CD;
+}
+
+body h1 {
+  padding-left: 10px;
+}
 
 .basic_image {
   position: absolute;
